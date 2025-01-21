@@ -42,6 +42,11 @@ nav {
     color: red;
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+}
 
 
 /* Hero Section */
@@ -148,6 +153,7 @@ nav {
         opacity: 1;
     }
 }
+
 
 /* About section */
 .about-section {
@@ -527,9 +533,4 @@ footer {
     color: rgba(0, 0, 0, 0.753);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
-}
+
